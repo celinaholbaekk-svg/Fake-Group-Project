@@ -1,6 +1,6 @@
 # Fake-Group-Project
 
-#Project desricption
+#Project description
 This project will build a fake news detection, using the fake news data set. 
 Firstly we are cleaning the dataset by applying tokenization, stop word removal and stemming.
 
