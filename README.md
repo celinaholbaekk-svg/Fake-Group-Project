@@ -1,12 +1,12 @@
 # Fake-Group-Project
 
-#Procejt desrecption
+#Project desricption
 This project will build a fake news detection, using the fake news data set. 
-Firstly we are cleaning the dataset by applying tokenization, stop ward removal and stemming.
+Firstly we are cleaning the dataset by applying tokenization, stop word removal and stemming.
 
 We have also devolped a simple logistic model to evaluate the model using the F1 score on the 10% test and 80% train of the data set.
 we are building a more advanced model using SVM and TF-IDF features
-lastly we will evealuate the model on the LIAR dataset
+lastly we will evaluate the model on the LIAR dataset
 
 
 #installation instructions 
@@ -20,7 +20,7 @@ to run part 3
 to run part 4
 
 #DAta
-In this porject we have used the FakeNewsCorpus containing 995.000 rows, downloaded from absalon
+In this project we have used the FakeNewsCorpus containing 995.000 rows, downloaded from absalon
 
 #Results
 Logistic Regression -0.95
