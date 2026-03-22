@@ -26,9 +26,9 @@ In this project we have used the FakeNewsCorpus containing 995.000 rows, downloa
 From Part 2
 Logistic Regression -0.88
 
-Results From part 4 using the model from part 3\\
-for the Fakenews dataset using the advanced model = unknown \\
-for the LIAR dataset using the simple model = unknonw\\
-for the LIAR dataset using the advanced model = unknown\\
+Results From part 4 using the model from part 3
+for the Fakenews dataset using the advanced model = unknown 
+for the LIAR dataset using the simple model = unknonw
+for the LIAR dataset using the advanced model = unknown
 
 
