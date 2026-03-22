@@ -23,6 +23,6 @@ to run part 4
 In this project we have used the FakeNewsCorpus containing 995.000 rows, downloaded from absalon
 
 #Results
-Logistic Regression -0.95
-SVM, TF-IDF 0.96
+Logistic Regression -0.88
+SVM, TF-IDF unknow for now
 
