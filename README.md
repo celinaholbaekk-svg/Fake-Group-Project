@@ -10,7 +10,8 @@ Then we have build a more advanced model combining support vector machine and TF
 and then the dataset fakenews and LIAR will be applied to the advanced model using SVM and TF-IDF features, and we will evalute the F1 score from the datasets.
 
 #installation instructions 
-pip install pandas, nltk, numpy, matplotlib, pandarallel
+pip install pandas, nltk, numpy, matplotlib, pandarallel, pyarrow, jupyter,
+Vs code
 
 #Usage 
 You should run the project in the followung order
@@ -25,6 +26,7 @@ In this project we have used the FakeNewsCorpus containing 995.000 rows, downloa
 #Results
 From Part 2
 Logistic Regression -0.88
+Advanced: 
 
 Results From part 4 using the model from part 3
 for the Fakenews dataset using the advanced model = unknown 
