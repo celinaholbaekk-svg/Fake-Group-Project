@@ -1,17 +1,11 @@
 # Fake-Group-Project
-# Project description
-This project tries to build a fake news detection system, using the fake news data set.
+## Project description
 
-The process starts with preprocessing the dataset, which includes tokenization, stopword removal and stemming to prepare the text data for analysis.
-The dataset is then split into three parts: 80% for training, 10% for testing, and 10% for validation.
+This project builds a fake news detection system using the FakeNewsCorpus dataset. First, the dataset is cleaned by applying tokenization, stopword removal, and stemming. Then, the dataset is divided into 80\% training, 10\% validation, and 10\% test data.
 
-We have also devolped a simple logistic model to evaluate the model using the F1 score on the 10% test and 80% train of the data set.
+We also develop a simple logistic regression model to evaluate the data using the F1-score. In addition, we build a more advanced model using Support Vector Machine and TF-IDF features. 
 
-First, a simple logistic regression model is developed to establish a baseline. The model is evaluated using the F1 score on both the training data (80%) and the test data (10%).
-
-Next, a more advanced model is implemented by combining Support Vector Machines (SVM) with TF-IDF. This model is designed to improve classification performance on textual data.
-
-Finally, both the Fake News dataset and the LIAR dataset are applied to the advanced SVM + TF-IDF model. The performance of the model is evaluated using the F1 score across these datasets to compare results and assess effectiveness.
+Finally, the models are evaluated on both the FakeNewsCorpus and LIAR datasets.
 
 # installation instructions 
 To run this project, install the required Python packages using the following command:
@@ -34,7 +28,7 @@ Part 2
 Part 3
 Part 4
 
-# DATA
+# Data
 This project uses multiple datasets obtained from Absalon:
 
 News Sample dataset – a smaller dataset used for testing and experimentation
