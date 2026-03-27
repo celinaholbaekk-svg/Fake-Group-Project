@@ -1,20 +1,31 @@
 # Fake-Group-Project
-
 # Project description
-This project will build a fake news detection, using the fake news data set. 
-Firstly the dataset will be cleaned by applying tokenization, stop word removal and stemming.
-secondly the data set will be divided into 80% training 10% test and 10% validation.
+This project tries to build a fake news detection system, using the fake news data set.
+
+The process starts with preprocessing the dataset, which includes tokenization, stopword removal and stemming to prepare the text data for analysis.
+The dataset is then split into three parts: 80% for training, 10% for testing, and 10% for validation.
 
 We have also devolped a simple logistic model to evaluate the model using the F1 score on the 10% test and 80% train of the data set.
-Then we have build a more advanced model combining support vector machine and TF-IDF.
-and then the dataset fakenews and LIAR will be applied to the advanced model using SVM and TF-IDF features, and we will evalute the F1 score from the datasets.
+
+First, a simple logistic regression model is developed to establish a baseline. The model is evaluated using the F1 score on both the training data (80%) and the test data (10%).
+
+Next, a more advanced model is implemented by combining Support Vector Machines (SVM) with TF-IDF. This model is designed to improve classification performance on textual data.
+
+Finally, both the Fake News dataset and the LIAR dataset are applied to the advanced SVM + TF-IDF model. The performance of the model is evaluated using the F1 score across these datasets to compare results and assess effectiveness.
 
 # installation instructions 
-pip install pandas, nltk, numpy, matplotlib, pandarallel, pyarrow, jupyter,
-Vs code
+For the code to work you have to pip install, pandas, nltk, numpy, matplotlib, pandarallel, pyarrow, jupyter, ipywidgets, scikit-learn and cleantext.
+To run the code you would need either Vs code or Pycharm.
+we are importing re, pandas as pd, numpy as np, matplotlib.pyplot as plt.
+from pandarallel we import pandarallel and use pandarallel.initialize(progress_bar=True)
+When importing nltk, we have to use from nltk.tokenize import word_tokenize, from nltk.corpus import stopwords
+from nltk.stem import SnowballStemmer, nltk.stem import PorterStemmer and from sklearn.model_selection import train_test_split
+
+pip install pandas nltk numpy matplotlib pandarallel pyarrow jupyter ipywidgets scikit-learn cleantext
+
 
 # Usage 
-You should run the project in the followung order
+You should run the project in the following order
 run part 1
 to run part 2, 
 to run part 3
