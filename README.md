@@ -17,16 +17,16 @@ It is recommended to run the project in either Visual Studio Code or PyCharm, or
 Before running the project, make sure to download the required NLTK datasets:
 
 import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
+- nltk.download('punkt')
+- nltk.download('stopwords')
 
 # Usage 
 The project is divided into multiple parts. To reproduce the results, run the files in the following order:
 
-- **Part 1
-- **Part 2
-- **Part 3
-- **Part4
+- Part 1
+- Part 2
+- Part 3
+- Part4
 
 # Data
 This project uses multiple datasets obtained from Absalon:
