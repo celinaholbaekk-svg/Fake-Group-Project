@@ -38,13 +38,11 @@ LIAR dataset – used to evaluate model performance on an external dataset
 The trained model was evaluated on the LIAR dataset without retraining.
 
 # Results
-From Part 2
-Logistic Regression -0.88
-Advanced: 
+The performance of the models was evaluated using the F1 score across different datasets:
 
-Results From part 4 using the model from part 3
-for the Fakenews dataset using the advanced model = unknown 
-for the LIAR dataset using the simple model = unknonw
-for the LIAR dataset using the advanced model = unknown
+FakeNewsCorpus (Simple Model – Logistic Regression): 0.88
+FakeNewsCorpus (Advanced Model – SVM + TF-IDF): 0.9049
+LIAR Dataset (Simple Model – Logistic Regression): 0.45
+LIAR Dataset (Advanced Model – SVM + TF-IDF): 0.50
 
-
+The advanced model outperforms the baseline logistic regression model on both datasets, with a more noticeable improvement on the FakeNewsCorpus. However, performance on the LIAR dataset is lower overall, indicating challenges in generalizing to external data.
