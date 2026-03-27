@@ -42,11 +42,9 @@ The trained model was evaluated on the LIAR dataset without retraining.
 # Results
 The performance of the models was evaluated using the F1 score across different datasets:
 
-\begin{itemize}
-    \item FakeNewsCorpus (Simple Model -- Logistic Regression): 0.88
-    \item FakeNewsCorpus (Advanced Model -- SVM + TF-IDF): 0.9049
-    \item LIAR Dataset (Simple Model -- Logistic Regression): 0.45
-    \item LIAR Dataset (Advanced Model -- SVM + TF-IDF): 0.50
-\end{itemize}
+- **FakeNewsCorpus (Simple Model – Logistic Regression):** 0.88
+- **FakeNewsCorpus (Advanced Model – SVM + TF-IDF):** 0.9049
+- **LIAR Dataset (Simple Model – Logistic Regression):** 0.45
+- **LIAR Dataset (Advanced Model – SVM + TF-IDF):** 0.50
 
 The advanced model outperforms the baseline logistic regression model on both datasets, with a more noticeable improvement on the FakeNewsCorpus. However, performance on the LIAR dataset is lower overall, indicating challenges in generalizing to external data.
