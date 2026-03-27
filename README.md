@@ -14,25 +14,35 @@ Next, a more advanced model is implemented by combining Support Vector Machines 
 Finally, both the Fake News dataset and the LIAR dataset are applied to the advanced SVM + TF-IDF model. The performance of the model is evaluated using the F1 score across these datasets to compare results and assess effectiveness.
 
 # installation instructions 
-For the code to work you have to pip install, pandas, nltk, numpy, matplotlib, pandarallel, pyarrow, jupyter, ipywidgets, scikit-learn and cleantext.
-To run the code you would need either Vs code or Pycharm.
-we are importing re, pandas as pd, numpy as np, matplotlib.pyplot as plt.
-from pandarallel we import pandarallel and use pandarallel.initialize(progress_bar=True)
-When importing nltk, we have to use from nltk.tokenize import word_tokenize, from nltk.corpus import stopwords
-from nltk.stem import SnowballStemmer, nltk.stem import PorterStemmer and from sklearn.model_selection import train_test_split
+To run this project, install the required Python packages using the following command:
 
-pip install pandas nltk numpy matplotlib pandarallel pyarrow jupyter ipywidgets scikit-learn cleantext
+pip install: pandas, nltk, numpy, matplotlib, pandarallel, pyarrow, jupyter, ipywidgets, scikit-learn, cleantext
 
+It is recommended to run the project in either Visual Studio Code or PyCharm, or alternatively using Jupyter Notebook.
+
+Before running the project, make sure to download the required NLTK datasets:
+
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
 
 # Usage 
-You should run the project in the following order
-run part 1
-to run part 2, 
-to run part 3
-to run part 4
+The project is divided into multiple parts. To reproduce the results, run the files in the following order:
+
+Part 1
+Part 2
+Part 3
+Part 4
 
 # DATA
-In this project we have used the FakeNewsCorpus containing 995.000 rows, downloaded from absalon
+This project uses multiple datasets obtained from Absalon:
+
+News Sample dataset – a smaller dataset used for testing and experimentation
+FakeNewsCorpus – contains approximately 995,000 rows and is used as the primary dataset
+LIAR dataset – used to evaluate model performance on an additional, external dataset
+
+These datasets are used to train, validate, and evaluate both the baseline and advanced models.
+
 
 # Results
 From Part 2
