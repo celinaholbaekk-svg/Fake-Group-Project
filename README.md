@@ -31,12 +31,11 @@ Part 4
 # Data
 This project uses multiple datasets obtained from Absalon:
 
-News Sample dataset – a smaller dataset used for testing and experimentation
-FakeNewsCorpus – contains approximately 995,000 rows and is used as the primary dataset
-LIAR dataset – used to evaluate model performance on an additional, external dataset
+News Sample dataset – used to develop and test the preprocessing pipeline before applying it to the full FakeNewsCorpus
+FakeNewsCorpus (995K subset) – used for training and evaluation
+LIAR dataset – used to evaluate model performance on an external dataset
 
-These datasets are used to train, validate, and evaluate both the baseline and advanced models.
-
+The trained model was evaluated on the LIAR dataset without retraining.
 
 # Results
 From Part 2
