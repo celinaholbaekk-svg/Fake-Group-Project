@@ -23,12 +23,10 @@ nltk.download('stopwords')
 # Usage 
 The project is divided into multiple parts. To reproduce the results, run the files in the following order:
 
-\begin{itemize}
-    \item part 1
-    \item part 2
-    \item part 3
-    \item part 4
-\end{itemize}
+- **Part 1
+- **Part 2
+- **Part 3
+- **Part4
 
 # Data
 This project uses multiple datasets obtained from Absalon:
