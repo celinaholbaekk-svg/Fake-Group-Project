@@ -23,10 +23,12 @@ nltk.download('stopwords')
 # Usage 
 The project is divided into multiple parts. To reproduce the results, run the files in the following order:
 
-Part 1
-Part 2
-Part 3
-Part 4
+\begin{itemize}
+    \item part 1
+    \item part 2
+    \item part 3
+    \item part 4
+\end{itemize}
 
 # Data
 This project uses multiple datasets obtained from Absalon:
@@ -40,9 +42,11 @@ The trained model was evaluated on the LIAR dataset without retraining.
 # Results
 The performance of the models was evaluated using the F1 score across different datasets:
 
-FakeNewsCorpus (Simple Model – Logistic Regression): 0.88
-FakeNewsCorpus (Advanced Model – SVM + TF-IDF): 0.9049
-LIAR Dataset (Simple Model – Logistic Regression): 0.45
-LIAR Dataset (Advanced Model – SVM + TF-IDF): 0.50
+\begin{itemize}
+    \item FakeNewsCorpus (Simple Model -- Logistic Regression): 0.88
+    \item FakeNewsCorpus (Advanced Model -- SVM + TF-IDF): 0.9049
+    \item LIAR Dataset (Simple Model -- Logistic Regression): 0.45
+    \item LIAR Dataset (Advanced Model -- SVM + TF-IDF): 0.50
+\end{itemize}
 
 The advanced model outperforms the baseline logistic regression model on both datasets, with a more noticeable improvement on the FakeNewsCorpus. However, performance on the LIAR dataset is lower overall, indicating challenges in generalizing to external data.
