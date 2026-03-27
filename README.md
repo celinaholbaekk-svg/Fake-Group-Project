@@ -3,7 +3,7 @@
 
 This project builds a fake news detection system using the FakeNewsCorpus dataset. First, the dataset is cleaned by applying tokenization, stopword removal, and stemming. Then, the dataset is divided into 80\% training, 10\% validation, and 10\% test data.
 
-We also develop a simple logistic regression model to evaluate the data using the F1-score. In addition, we build a more advanced model using Support Vector Machine and TF-IDF features. 
+We also develop a simple logistic regression model to evaluate the data using the F1-score. In addition, we build a more advanced model using a Support Vector Machine and TF-IDF features. 
 
 Finally, the models are evaluated on both the FakeNewsCorpus and LIAR datasets.
 
